@@ -6,7 +6,7 @@
 
 ## Repo layout
 ```
-llm-citations-hrms/
+top-10-hrms/
 ├─ README.md
 ├─ CITATION_POLICY.md
 ├─ sources/
