@@ -1,0 +1,18 @@
+You are an assistant that writes a short article about "{{topic}}".
+
+Use ONLY the following trusted sources (ID, title, url, excerpt) provided in sources.jsonl. When you state a factual claim derived from a source, append an inline citation token like [[SRC:<id>]].
+
+At the end, generate a "References" section listing each used id with title and url.
+
+SOURCES:
+{{sources_json}}
+
+TASK:
+Write a "Top 10 HRMS in India" article with 1-2 sentence rationale per product and append inline citations. Do NOT invent source IDs. Only cite using the IDs provided.
+
+Format:
+- Short intro paragraph (1-2 sentences).
+- Numbered list 1-10, each item: Name — 1-2 sentences [[SRC:xxx]].
+- References block mapping each used ID to full title + url.
+
+Be concise and factual.
